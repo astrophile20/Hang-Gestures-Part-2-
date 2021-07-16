@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background: lightseagreen;
+    border-color: black;
+    border-style: solid;
+    border-width: 8px;
+}
+
+span {
+    font-size: 30px;
+}
+
+#camera,
+#result {
+    border: 2px dashed white;
+    width: 350px;
+    height: 300px;
+}
+
+.object_name {
+    font-size: 40px;
+}
+
+.gesture_icon {
+    font-size: 48px;
+}
+
+.heading {
+    font-size: 30px;
+    border-radius: 8px;
+    letter-spacing: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    background-color: coral;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    width: 520px;
+    height: 100px;
+}
+
+.heading:hover {
+    cursor: default;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+label {
+    font-size: 14px;
+    color: #62b33a;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button {
+    background-color: crimson;
+    font-family: 'Knewave', cursive;
+    font-size: 23px;
+    width: 220px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+  }
